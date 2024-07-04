@@ -1,4 +1,5 @@
-const BASE_URL = "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app/"
+// const BASE_URL = "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app/"
+const BASE_URL = "https://joinjw-316a7-default-rtdb.europe-west1.firebasedatabase.app/"
 
 const publicPages = ['index.html', 'privacy_policy.html', 'legal_notice.html', 'signup.html', 'help.html'];
 
@@ -9,15 +10,26 @@ import { getAuth, onAuthStateChanged, signOut, deleteUser } from "https://www.gs
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-let firebaseConfig = {
-    apiKey: "AIzaSyDrm2QShTbbwiC0gpPDPP2LfdkdwQTZ5MI",
-    authDomain: "remotestorage-b0ea0.firebaseapp.com",
-    databaseURL: "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "remotestorage-b0ea0",
-    storageBucket: "remotestorage-b0ea0.appspot.com",
-    messagingSenderId: "997644324716",
-    appId: "1:997644324716:web:641faa74f9c4ddd39f2d49"
-};
+// let firebaseConfig = {
+//     apiKey: "AIzaSyDrm2QShTbbwiC0gpPDPP2LfdkdwQTZ5MI",
+//     authDomain: "remotestorage-b0ea0.firebaseapp.com",
+//     databaseURL: "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app",
+//     projectId: "remotestorage-b0ea0",
+//     storageBucket: "remotestorage-b0ea0.appspot.com",
+//     messagingSenderId: "997644324716",
+//     appId: "1:997644324716:web:641faa74f9c4ddd39f2d49"
+// };
+
+const firebaseConfig = {
+    apiKey: "AIzaSyA25n24LORcavMhr-PRNw835R4SJhensX8",
+    authDomain: "joinjw-316a7.firebaseapp.com",
+    databaseURL: "https://joinjw-316a7-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "joinjw-316a7",
+    storageBucket: "joinjw-316a7.appspot.com",
+    messagingSenderId: "159255183922",
+    appId: "1:159255183922:web:77b642c0dd49be0633f22b"
+  };
+
 // Initialize Firebase
 let app = initializeApp(firebaseConfig);
 let auth = getAuth();

@@ -1,19 +1,32 @@
-const BASE_URL = "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app/";
+// const BASE_URL = "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app/";
+
+const BASE_URL = "https://joinjw-316a7-default-rtdb.europe-west1.firebasedatabase.app/";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
-// Your web app's Firebase configuration
+// Your web app's Firebase configuration Signup von Alex
+// const firebaseConfig = {
+//     apiKey: "AIzaSyDrm2QShTbbwiC0gpPDPP2LfdkdwQTZ5MI",
+//     authDomain: "remotestorage-b0ea0.firebaseapp.com",
+//     databaseURL: "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app",
+//     projectId: "remotestorage-b0ea0",
+//     storageBucket: "remotestorage-b0ea0.appspot.com",
+//     messagingSenderId: "997644324716",
+//     appId: "1:997644324716:web:641faa74f9c4ddd39f2d49"
+// };
+
+// Your web app's Firebase configuration Signup von Julian
 const firebaseConfig = {
-    apiKey: "AIzaSyDrm2QShTbbwiC0gpPDPP2LfdkdwQTZ5MI",
-    authDomain: "remotestorage-b0ea0.firebaseapp.com",
-    databaseURL: "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "remotestorage-b0ea0",
-    storageBucket: "remotestorage-b0ea0.appspot.com",
-    messagingSenderId: "997644324716",
-    appId: "1:997644324716:web:641faa74f9c4ddd39f2d49"
-};
+    apiKey: "AIzaSyA25n24LORcavMhr-PRNw835R4SJhensX8",
+    authDomain: "joinjw-316a7.firebaseapp.com",
+    databaseURL: "https://joinjw-316a7-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "joinjw-316a7",
+    storageBucket: "joinjw-316a7.appspot.com",
+    messagingSenderId: "159255183922",
+    appId: "1:159255183922:web:77b642c0dd49be0633f22b"
+  };
 
 // Initialize Firebase
 let app = initializeApp(firebaseConfig);

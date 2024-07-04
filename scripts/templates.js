@@ -1,4 +1,5 @@
-const BASE_URL = "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app/"
+// const BASE_URL = "https://remotestorage-b0ea0-default-rtdb.europe-west1.firebasedatabase.app/"
+const BASE_URL = "https://joinjw-316a7-default-rtdb.europe-west1.firebasedatabase.app/"
 let currentTaskId = null;
 let names
 let category
